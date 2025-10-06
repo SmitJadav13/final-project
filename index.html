@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subham Ice Cream, Patan</title>
+  <meta property="og:title" content="Subham Ice Cream, Patan" />
+  <meta property="og:description" content="Cool treats in Patan - Subham Ice Cream" />
+  <meta property="og:image" content="image/logo.jpg" />
+  <meta property="og:type" content="website" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="image/logo.jpg" alt="Subham Ice Cream Logo" height="40" class="me-2"> Subham Ice Cream</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Banner -->
+  <header class="hero text-white text-center d-flex align-items-center justify-content-center">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to Subham Ice Cream</h1>
+      <p>Cool treats in Patan</p>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="py-5 section">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Menu</h2>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="menu-category">
+            <h4 class="text-center mb-3">Ice Creams (100 ml)</h4>
+            <ul class="menu-list">
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Vanilla – ₹30">Vanilla – ₹30</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Mava Masti – ₹40">Mava Masti – ₹40</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Sugar-Free – ₹50">Sugar-Free – ₹50</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Chocolate Chips / Cookies & Cream / Gulabmasti / Kaju Draksh / Mava Badam – ₹50">Chocolate Chips / Cookies & Cream / Gulabmasti / Kaju Draksh / Mava Badam – ₹50</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="American Dr Fruit / Choco Brownie / Kesar Pista / Pan Masala / Rajbhog / Roasted Almond – ₹60">American Dr Fruit / Choco Brownie / Kesar Pista / Pan Masala / Rajbhog / Roasted Almond – ₹60</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Dry Fruit Overload / Kaju Anjir – ₹70">Dry Fruit Overload / Kaju Anjir – ₹70</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="menu-category">
+            <h4 class="text-center mb-3">Fresh Fruit Ice Creams</h4>
+            <ul class="menu-list">
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Jamfal, Sitafal, Tender Coconut – ₹60">Jamfal, Sitafal, Tender Coconut – ₹60</li>
+            </ul>
+            <h4 class="text-center mb-3 mt-4">Lassi & Cold Drinks</h4>
+            <ul class="menu-list">
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Plain Lassi – ₹50">Plain Lassi – ₹50</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Kaju Lassi (200 ml) – ₹65">Kaju Lassi (200 ml) – ₹65</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Ice Cream Lassi / Strawberry Lassi – ₹95">Ice Cream Lassi / Strawberry Lassi – ₹95</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Rajwadi Lassi – ₹120">Rajwadi Lassi – ₹120</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Dudh Colddrink – ₹80">Dudh Colddrink – ₹80</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Badam Shake – ₹90">Badam Shake – ₹90</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="menu-category">
+            <h4 class="text-center mb-3">Ice Cream Shakes</h4>
+            <ul class="menu-list">
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Cold Coffee – ₹100">Cold Coffee – ₹100</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Chocolate / Oreo / Strawberry Shake – ₹130">Chocolate / Oreo / Strawberry Shake – ₹130</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="KitKat Shake – ₹140">KitKat Shake – ₹140</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Kaju Anjeer / Sitafal Shake – ₹170">Kaju Anjeer / Sitafal Shake – ₹170</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="menu-category">
+            <h4 class="text-center mb-3">Other Delights</h4>
+            <ul class="menu-list">
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Single Sundae – ₹63 | Triple / Chocolate Safari – ₹110">Single Sundae – ₹63 | Triple / Chocolate Safari – ₹110</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Cold Coco – ₹70 / with Ice Cream – ₹85 / KitKat Coco – ₹95">Cold Coco – ₹70 / with Ice Cream – ₹85 / KitKat Coco – ₹95</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Mava Kulfi – ₹50">Mava Kulfi – ₹50</li>
+              <li data-bs-toggle="modal" data-bs-target="#orderModal" data-item="Kaju Draksh Matho – ₹90 | American / Kesar Pista / Rajbhog Matho – ₹95">Kaju Draksh Matho – ₹90 | American / Kesar Pista / Rajbhog Matho – ₹95</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Modal -->
+  <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="orderModalLabel">Order Now</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>You selected: <strong id="selectedItem"></strong></p>
+          <p>Ready to order? Click below to order from Zomato!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.zomato.com/patan/subham-ice-cream-patan-locality/order" target="_blank" class="btn btn-primary">Order on Zomato</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Section -->
+  <section class="py-5 bg-light section">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Products</h2>
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/shop1.jpg" class="d-block w-100" alt="Delicious Ice Cream" style="height: 300px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Premium Ice Creams</h5>
+              <p>Handcrafted with the finest ingredients.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/shop2.jpg" class="d-block w-100" alt="Creamy Treats" style="height: 300px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fresh Fruit Flavors</h5>
+              <p>Natural and refreshing options available.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/product2.jpg" class="d-block w-100" alt="Fresh Flavors" style="height: 300px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Shakes & Lassis</h5>
+              <p>Cool down with our signature beverages.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/product3.jpg" class="d-block w-100" alt="Handmade Scoops" style="height: 300px; object-fit: cover;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Special Delights</h5>
+              <p>Indulge in our unique creations.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlight Section -->
+  <section class="py-5 section">
+    <div class="container text-center">
+      <img src="image/template.jpg" class="img-fluid mb-4 rounded shadow" alt="We picked the most Pulpy Sitafal for You" style="max-height: 300px;">
+      <h3 class="text-primary">We picked the most Pulpy Sitafal for You</h3>
+      <p class="lead">Enjoy the freshest and most delicious fruit-based ice creams made with love in Patan.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-5 bg-light section">
+    <div class="container">
+      <h2 class="text-center mb-5">What Our Customers Say</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">"The best ice cream in Patan! The Sitafal flavor is absolutely divine. Highly recommend!"</p>
+              <h5 class="card-title">- Rajesh Patel</h5>
+              <div class="text-warning">
+                ★★★★★
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">"Amazing variety and quality. The shakes are creamy and delicious. A must-visit place!"</p>
+              <h5 class="card-title">- Priya Sharma</h5>
+              <div class="text-warning">
+                ★★★★★
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <p class="card-text">"Fresh ingredients and friendly staff. The Kulfi is a standout. Will come back again!"</p>
+              <h5 class="card-title">- Amit Kumar</h5>
+              <div class="text-warning">
+                ★★★★★
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>📍 Abhayam Arcade, Harij Crossroad, Patan, Gujarat 384265</p>
+      <p>📞 9033826840 | 10:00 AM – 11:30 PM</p>
+      <p>
+        <a href="https://www.zomato.com/patan/subham-ice-cream-patan-locality/order" target="_blank" class="text-white me-3">Order on Zomato</a>
+        <a href="https://www.instagram.com/subham_icecream/" target="_blank" class="text-white">Instagram</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
